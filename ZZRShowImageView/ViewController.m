@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZZRScrollView.h"
 
 @interface ViewController ()
 
@@ -14,15 +15,30 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray *arr = @[[UIColor redColor],
+                     [UIColor orangeColor],
+                     [UIColor yellowColor],
+                     [UIColor greenColor],
+                     [UIColor blueColor],
+                     [UIColor purpleColor]];
+    
+    
+    
+    ZZRScrollView *scrollView = [[ZZRScrollView alloc] initWithFrame:CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.width, 200)];
+    [scrollView setUpViewWithImageUrls:arr];
+    
+    
+    [self.view addSubview:scrollView];
 }
 
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 

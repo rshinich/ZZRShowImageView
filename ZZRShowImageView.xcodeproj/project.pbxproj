@@ -15,6 +15,7 @@
 		9F59B5141EEE79FB00691F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F59B5121EEE79FB00691F9A /* LaunchScreen.storyboard */; };
 		9F59B51F1EEE79FB00691F9A /* ZZRShowImageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F59B51E1EEE79FB00691F9A /* ZZRShowImageViewTests.m */; };
 		9F59B52A1EEE79FB00691F9A /* ZZRShowImageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F59B5291EEE79FB00691F9A /* ZZRShowImageViewUITests.m */; };
+		9F59B5391EEE7A1C00691F9A /* ZZRScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F59B5381EEE7A1C00691F9A /* ZZRScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9F59B5251EEE79FB00691F9A /* ZZRShowImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZRShowImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F59B5291EEE79FB00691F9A /* ZZRShowImageViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZRShowImageViewUITests.m; sourceTree = "<group>"; };
 		9F59B52B1EEE79FB00691F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F59B5371EEE7A1C00691F9A /* ZZRScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZRScrollView.h; sourceTree = "<group>"; };
+		9F59B5381EEE7A1C00691F9A /* ZZRScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZRScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				9F59B5081EEE79FB00691F9A /* AppDelegate.m */,
 				9F59B50A1EEE79FB00691F9A /* ViewController.h */,
 				9F59B50B1EEE79FB00691F9A /* ViewController.m */,
+				9F59B5371EEE7A1C00691F9A /* ZZRScrollView.h */,
+				9F59B5381EEE7A1C00691F9A /* ZZRScrollView.m */,
 				9F59B50D1EEE79FB00691F9A /* Main.storyboard */,
 				9F59B5101EEE79FB00691F9A /* Assets.xcassets */,
 				9F59B5121EEE79FB00691F9A /* LaunchScreen.storyboard */,
@@ -278,6 +283,7 @@
 			files = (
 				9F59B50C1EEE79FB00691F9A /* ViewController.m in Sources */,
 				9F59B5091EEE79FB00691F9A /* AppDelegate.m in Sources */,
+				9F59B5391EEE7A1C00691F9A /* ZZRScrollView.m in Sources */,
 				9F59B5061EEE79FB00691F9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
